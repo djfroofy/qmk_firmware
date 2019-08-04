@@ -15,8 +15,6 @@
  */
 #include QMK_KEYBOARD_H
 
-// Settings
-#define TAPPING_TOGGLE 2
 
 // Keyboard Layers
 #define _QW 0
