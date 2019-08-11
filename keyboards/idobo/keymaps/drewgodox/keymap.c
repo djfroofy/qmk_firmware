@@ -22,7 +22,7 @@
 #define _FN 2
 #define _MOUSE 3
 
-// Custom Aliases
+// Some short-cut aliases
 #define Z_LALT LALT_T(KC_ESC)
 #define Z_MAC DF(_QW_MAC)
 #define Z_PC DF(_QW)
@@ -48,11 +48,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  ),
 
  [_FN] = LAYOUT_ortho_5x15( /* FUNCTION */
-    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   ___N___, ___N___, ___N___, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  \
+    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   ___N___, RESET,   ___N___, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  \
     ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, KC_PGDN, KC_PGUP, ___N___, ___N___, ___N___, \
     ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, ___N___, ___N___, \
-    ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, Z_MAC,   ___N___, ___N___, KC_HOME, KC_END,  ___N___, ___N___, ___N___, \
-    TT(_FN), ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, Z_PC,    ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___  \
+    ___N___, ___N___, ___N___, ___N___, ___N___, ___N___, _______, Z_MAC,   _______, ___N___, KC_HOME, KC_END,  ___N___, ___N___, ___N___, \
+    TT(_FN), ___N___, ___N___, ___N___, ___N___, ___N___, _______, Z_PC,    _______, ___N___, ___N___, ___N___, ___N___, ___N___, ___N___  \
  ),
 
  [_MOUSE] = LAYOUT_ortho_5x15( /* MOUSE */
